@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         SideMenuController.preferences.drawing.menuButtonImage = UIImage(named: "menu")
         SideMenuController.preferences.drawing.sidePanelPosition = .underCenterPanelLeft
-        SideMenuController.preferences.drawing.sidePanelWidth = 300
+        SideMenuController.preferences.drawing.sidePanelWidth = 301
         SideMenuController.preferences.drawing.centerPanelShadow = true
         SideMenuController.preferences.animating.statusBarBehaviour = .horizontalPan
         SideMenuController.preferences.animating.transitionAnimator = FadeAnimator.self
